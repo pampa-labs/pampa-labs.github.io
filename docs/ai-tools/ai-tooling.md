@@ -7,32 +7,31 @@ In the rapidly evolving landscape of software development, artificial intelligen
 Raycast has quickly become the Swiss Army knife for developers, offering a supercharged alternative to traditional launchers. Its AI-enhanced capabilities make it an indispensable part of any modern development workflow.
 
 ### Key Features:
-
-1. **Intelligent Calculations**: 
+1. Intelligent Calculations: 
    - Perform complex calculations, including currency conversions and date computations, directly from the Raycast interface.
    - Example: Convert 4000 pesos to dollars with a simple command.
 
-2. **Advanced File Management**: 
+2. Advanced File Management: 
    - Search, move, and manipulate files without leaving your keyboard.
    - Quick Look functionality for rapid file previews.
 
-3. **Smart Clipboard History**: 
+3. Smart Clipboard History: 
    - Access an extensive clipboard history, making complex copy-paste operations effortless.
    - Direct paste functionality into active applications.
 
-4. **AI-Powered Custom Commands** (Pro feature):
+4. AI-Powered Custom Commands (Pro feature):
    - Create custom AI prompts for tasks like email composition or ticket creation.
    - Example: Use a shortcut to automatically format and translate informal notes into professional emails.
 
-5. **Intelligent Snippets**: 
+5. Intelligent Snippets: 
    - Create and use dynamic code snippets and text expansions.
    - Example: A snippet that sets up a complete Python virtual environment with a single command.
 
-6. **Seamless App Integrations**: 
+6. Seamless App Integrations: 
    - Connect with tools like Asana, Slack, and Google Calendar for unified workflow management.
    - Create calendar events, manage tasks, or send Slack messages without context switching.
 
-7. **Developer-Specific Tools**:
+7. Developer-Specific Tools:
    - JSON formatter for quick data structure visualization.
    - Emoji picker with custom shortcuts for frequent use.
 
@@ -45,24 +44,24 @@ For developers diving into the world of AI and large language models, the combin
 
 ### Key Advantages:
 
-1. **Iterative Prompt Refinement**: 
+1. Iterative Prompt Refinement: 
    - Use Langsmith's Playground to rapidly test and refine prompts without modifying your codebase.
    - Visualize prompt performance and iterate quickly.
 
-2. **Cross-Model Optimization**: 
+2. Cross-Model Optimization: 
    - Leverage Claude's advanced understanding to improve prompts for other models like GPT-4.
    - Benefit from Claude's unique insights to enhance overall prompt quality.
 
-3. **Efficient Workflow Pipeline**:
+3. Efficient Workflow Pipeline:
    - Test changes in Langsmith
    - Refine prompts with Claude
    - Implement optimized prompts in your application
 
-4. **Handling Hallucinations**: 
+4. Handling Hallucinations: 
    - Use Claude to identify and correct hallucinations in other models' outputs.
    - Improve prompt stability and reliability across different AI models.
 
-5. **Non-Technical Collaboration**:
+5. Non-Technical Collaboration:
    - Share Claude projects with non-technical team members for better understanding of AI applications.
    - Facilitate cross-team collaboration on AI-driven features.
 
@@ -75,31 +74,31 @@ Cursor, built on top of VS Code, brings AI directly into your coding environment
 
 ### Key Features:
 
-1. **Contextual Code Understanding**: 
+1. Contextual Code Understanding: 
    - Index your entire codebase for more intelligent code suggestions and completions.
    - AI understands project context for more relevant assistance.
 
-2. **Natural Language Coding Commands**: 
+2. Natural Language Coding Commands: 
    - Use conversational language to generate, modify, or explain code.
    - Example: "Create a function that sorts an array of objects by date"
 
-3. **Flexible Model Selection**: 
+3. Flexible Model Selection: 
    - Switch between AI models (e.g., GPT-3.5, GPT-4) based on task complexity.
    - Optimize for speed or accuracy as needed.
 
-4. **Codex Integration for Enhanced Learning**:
+4. Codex Integration for Enhanced Learning:
    - Use the `.ia` folder to store custom rules and learnings in markdown files.
    - Create a growing knowledge base specific to your project or coding style.
 
-5. **Versioned AI Interactions**: 
+5. Versioned AI Interactions: 
    - Keep track of different AI suggestions using Codex's artifact system.
    - Easily compare and choose between multiple AI-generated solutions.
 
-6. **Focused Problem-Solving**: 
+6. Focused Problem-Solving: 
    - Load only relevant parts of your codebase to get more targeted AI assistance.
    - Improve AI performance by reducing noise in the context.
 
-7. **Continuous Learning Loop**:
+7. Continuous Learning Loop:
    - Correct AI mistakes and save these corrections for future reference.
    - Build a custom guide for AI to follow your specific coding practices.
 
@@ -108,15 +107,20 @@ This combination is changing how developers approach coding by providing intelli
 
 ## Maximizing AI Tool Efficiency: Pro Tips
 
-1. **One-Shot Conversations**: For models like GPT-4 and Claude, sometimes a single, well-crafted prompt yields better results than a long conversation.
+1. One-Shot Conversations:
+   - For models like GPT-4 and Claude, sometimes a single, well-crafted prompt yields better results than a long conversation.
 
-2. **Model Switching**: Start with GPT-4 for initial code generation, switch to Claude for refinement, and use GPT-3.5 for quick documentation tasks.
+2. Model Switching:
+   - Start with GPT-4 for initial code generation, switch to Claude for refinement, and use GPT-3.5 for quick documentation tasks.
 
-3. **Context Management**: Be mindful of token limits and context windows. Summarize long conversations before switching models.
+3. Context Management:
+   - Be mindful of token limits and context windows. Summarize long conversations before switching models.
 
-4. **Continuous Learning**: Regularly update your Codex learnings to improve AI assistance over time.
+4. Continuous Learning:
+   - Regularly update your Codex learnings to improve AI assistance over time.
 
-5. **Balanced Reliance**: While AI tools are powerful, remember to apply your expertise. AI is best used as an enhancer, not a replacement for developer skills.
+5. Balanced Reliance:
+   - While AI tools are powerful, remember to apply your expertise. AI is best used as an enhancer, not a replacement for developer skills.
 
 ## Conclusion
 
