@@ -1,4 +1,13 @@
 site_name: Pampa Labs Technical Blog
+site_author: Pampa Labs
+site_description: >-
+  Insights and solutions for LLM technologies by Pampa Labs.
+repo_name: pampa-labs-blog
+repo_url: https://pampa-labs.github.io/
+site_url: https://www.pampa.ai/
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2024 Pampa Labs
+
 theme:
   name: material
   custom_dir: overrides
