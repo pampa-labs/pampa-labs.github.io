@@ -1,4 +1,32 @@
-site_name: Pampa Labs
+site_name: Pampa Labs Technical Blog
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+nav:
+  - Home: index.md
+  - AI Tools:
+    - 'Revolutionizing Development': 'ai-tools/ai-tooling.md'
 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+
+plugins:
+  - search
