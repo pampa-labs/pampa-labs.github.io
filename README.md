@@ -1,34 +1,36 @@
-# Pampa Index Setup
+# Pampa Labs Technical Blog
 
-This guide will help you set up and contribute to the Pampa Labs documentation using MkDocs Material.
+This repository contains the source for the Pampa Labs Technical Blog, built using MkDocs Material.
 
 ## Setup Instructions
 
-1. Clone the repository locally
-
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd <repository-name>
+   ```
 
 2. Create a virtual environment and activate it:
    ```
    python -m venv venv
-   source venv/bin/activate  
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-3. Install MkDocs Material:
+3. Install dependencies:
    ```
-   pip install mkdocs-material
+   pip install -r requirements.txt
    ```
-
-   For more detailed installation instructions, refer to the [official MkDocs Material documentation](https://squidfunk.github.io/mkdocs-material/getting-started/).
 
 ## Adding Content
 
-1. Create a new Markdown file in the `docs` directory:
+1. Create a new Markdown file in the appropriate subdirectory under `docs/`:
    ```
-   docs/your-new-page.md
+   docs/category/your-new-page.md
    ```
 
-2. Commit your changes and push to the main branch:
+2. Update the `nav` section in `mkdocs.yml` if adding a new category or top-level page.
 
+3. Commit your changes and push to the main branch.
 
 The GitHub Actions workflow will automatically build and deploy your changes to the documentation site.
 
@@ -43,3 +45,6 @@ To preview your changes locally before pushing:
 
 2. Open your browser and go to `http://localhost:8000` to see the live preview of your documentation.
 
+## Deployment
+
+The site is automatically deployed via GitHub Actions when changes are pushed to the main branch. The workflow configuration can be found in `.github/workflows/ci.yml`.
