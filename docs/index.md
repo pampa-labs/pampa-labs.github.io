@@ -1,4 +1,4 @@
-# Pampa Labs Technical Blog Index
+# Pampa Blog Index
 
 Welcome to the Pampa Labs Technical Blog, where we explore cutting-edge technologies and share insights on software development, AI, and innovative tools that enhance productivity and creativity in the tech industry.
 
