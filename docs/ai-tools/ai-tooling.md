@@ -8,32 +8,32 @@ Raycast has quickly become the Swiss Army knife for developers, offering a super
 
 ### Key Features:
 1. Intelligent Calculations: 
-		-	Perform complex calculations, including currency conversions and date computations, directly from the Raycast interface.
-		-	Example: Convert 4000 pesos to dollars with a simple command.
+		- Perform complex calculations, including currency conversions and date computations, directly from the Raycast interface.
+		- Example: Convert 4000 pesos to dollars with a simple command.
 
 2. Advanced File Management: 
-		-	Search, move, and manipulate files without leaving your keyboard.
-		-	Quick Look functionality for rapid file previews.
+		- Search, move, and manipulate files without leaving your keyboard.
+		- Quick Look functionality for rapid file previews.
 
 3. Smart Clipboard History: 
-		-	Access an extensive clipboard history, making complex copy-paste operations effortless.
-		-	Direct paste functionality into active applications.
+		- Access an extensive clipboard history, making complex copy-paste operations effortless.
+		- Direct paste functionality into active applications.
 
 4. AI-Powered Custom Commands (Pro feature):
-		-	Create custom AI prompts for tasks like email composition or ticket creation.
-		-	Example: Use a shortcut to automatically format and translate informal notes into professional emails.
+		- Create custom AI prompts for tasks like email composition or ticket creation.
+		- Example: Use a shortcut to automatically format and translate informal notes into professional emails.
 
 5. Intelligent Snippets: 
-		-	Create and use dynamic code snippets and text expansions.
-		-	Example: A snippet that sets up a complete Python virtual environment with a single command.
+		- Create and use dynamic code snippets and text expansions.
+		- Example: A snippet that sets up a complete Python virtual environment with a single command.
 
 6. Seamless App Integrations: 
-		-	Connect with tools like Asana, Slack, and Google Calendar for unified workflow management.
-		-	Create calendar events, manage tasks, or send Slack messages without context switching.
+		- Connect with tools like Asana, Slack, and Google Calendar for unified workflow management.
+		- Create calendar events, manage tasks, or send Slack messages without context switching.
 
 7. Developer-Specific Tools:
-		-	JSON formatter for quick data structure visualization.
-		-	Emoji picker with custom shortcuts for frequent use.
+		- JSON formatter for quick data structure visualization.
+		- Emoji picker with custom shortcuts for frequent use.
 
 ### Why Raycast Stands Out:
 Raycast's power lies in its ability to keep developers focused on their work by minimizing context switches. It brings AI-powered automation to everyday tasks, allowing developers to stay in their flow state and focus on complex problem-solving rather than routine operations.
@@ -46,24 +46,24 @@ For developers diving into the world of AI and large language models, the combin
 
 1. Iterative Prompt Refinement: 
 		-	Use Langsmith's Playground to rapidly test and refine prompts without modifying your codebase.
-		-	Visualize prompt performance and iterate quickly.
+		- Visualize prompt performance and iterate quickly.
 
 2. Cross-Model Optimization: 
-		-	Leverage Claude's advanced understanding to improve prompts for other models like GPT-4.
-		-	Benefit from Claude's unique insights to enhance overall prompt quality.
+		- Leverage Claude's advanced understanding to improve prompts for other models like GPT-4.
+		- Benefit from Claude's unique insights to enhance overall prompt quality.
 
 3. Efficient Workflow Pipeline:
-		-	Test changes in Langsmith
-		-	Refine prompts with Claude
-		-	Implement optimized prompts in your application
+		- Test changes in Langsmith
+		- Refine prompts with Claude
+		- Implement optimized prompts in your application
 
 4. Handling Hallucinations: 
-		-	Use Claude to identify and correct hallucinations in other models' outputs.
-		-	Improve prompt stability and reliability across different AI models.
+		- Use Claude to identify and correct hallucinations in other models' outputs.
+		- Improve prompt stability and reliability across different AI models.
 
 5. Non-Technical Collaboration:
-		-	Share Claude projects with non-technical team members for better understanding of AI applications.
-		-	Facilitate cross-team collaboration on AI-driven features.
+		- Share Claude projects with non-technical team members for better understanding of AI applications.
+		- Facilitate cross-team collaboration on AI-driven features.
 
 ### Why This Combination Works:
 This approach allows for rapid experimentation and often yields better results than relying on a single model for self-improvement. By leveraging Claude's strengths in prompt engineering, developers can create more robust and effective prompts for a variety of AI applications.
