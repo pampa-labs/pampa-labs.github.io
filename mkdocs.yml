@@ -10,7 +10,6 @@ copyright: Copyright &copy; 2024 Pampa Labs
 
 theme:
   name: material
-  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil 
