@@ -122,7 +122,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Technical Writings:
-    - "ai-tools/ai-tooling.md"
+    - "technical-writings/"
+
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
