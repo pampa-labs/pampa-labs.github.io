@@ -122,16 +122,12 @@ markdown_extensions:
 nav:
   - Home: index.md
   - AI Tools:
-    - 'Revolutionizing Development': 'ai-tools/ai-tooling.md'
+    - 'Revolutionizing Development': 'AI-tools/ai-tooling.md'
 plugins:
-  - redirects:
-      redirect_maps:
-          jobs.md: https://jobs.applied-llms.org
-  - social
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
-      minify_html: true
+        minify_html: true
   - mkdocstrings:
       handlers:
         python:
