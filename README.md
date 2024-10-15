@@ -30,7 +30,20 @@ This repository contains the source for the Pampa Labs Technical Blog, built usi
 
 2. Update the `nav` section in `mkdocs.yml` if adding a new category or top-level page.
 
-3. Commit your changes and push to the main branch.
+3. Add the blog entry to the `nav` section in `mkdocs.yml`. The corresponding place depends on the category of your blog post:
+   - For technical writings, add it under the "Technical Writings" section.
+   - For new top-level categories, add a new section at the appropriate level.
+
+   Example:
+   ```yaml
+   nav:
+     - Home: index.md
+     - Technical Writings:
+       - "technical-writings/existing-post.md"
+       - "technical-writings/your-new-post.md"  # Add your new post here
+   ```
+
+4. Commit your changes and push to the main branch.
 
 The GitHub Actions workflow will automatically build and deploy your changes to the documentation site.
 
