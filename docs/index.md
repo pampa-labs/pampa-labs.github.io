@@ -4,7 +4,7 @@ Welcome to the Pampa Labs Technical Blog, where we explore cutting-edge technolo
 
 ## Index of Current Articles
 
-1. [Revolutionizing Development: Essential AI Tools for the Modern Engineer](AI-tools/ai-tooling.md)
+1. [Revolutionizing Development: Essential AI Tools for the Modern Engineer](ai-tools/ai-tooling.md)
       - Raycast: The AI-Powered Command Center for Developers
       - Claude + Langsmith: Elevating Prompt Engineering
       - Cursor + Codex: Redefining Intelligent Coding
