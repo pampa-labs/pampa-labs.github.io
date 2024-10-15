@@ -86,21 +86,14 @@ Cursor, built on top of VS Code, brings AI directly into your coding environment
 	- Switch between AI models (e.g., GPT-3.5, GPT-4) based on task complexity.
 	- Optimize for speed or accuracy as needed.
 
-4. Codex Integration for Enhanced Learning:
-	- Use the `.ia` folder to store custom rules and learnings in markdown files.
-	- Create a growing knowledge base specific to your project or coding style.
+4. Codex Integration:
+	- Store custom rules and learnings in the `.ia` folder.
+	- Create a project-specific knowledge base and guide AI to follow your coding practices.
+	- Track and compare AI suggestions using the artifact system.
 
-5. Versioned AI Interactions: 
-	- Keep track of different AI suggestions using Codex's artifact system.
-	- Easily compare and choose between multiple AI-generated solutions.
-
-6. Focused Problem-Solving: 
+5. Focused Problem-Solving: 
 	- Load only relevant parts of your codebase to get more targeted AI assistance.
 	- Improve AI performance by reducing noise in the context.
-
-7. Continuous Learning Loop:
-	- Correct AI mistakes and save these corrections for future reference.
-	- Build a custom guide for AI to follow your specific coding practices.
 
 ### Why Cursor + Codex is Revolutionary:
 This combination is changing how developers approach coding by providing intelligent, context-aware assistance throughout the development process. It allows for faster iterations, reduces boilerplate coding, and lets developers focus on high-level problem-solving and creativity.
