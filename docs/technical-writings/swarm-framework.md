@@ -116,6 +116,7 @@ response_content = gaby_agent.invoke(
     ],
     debug=False
 )
+```
 
 Output:
 ¡Listo! He establecido el plan de comidas para el 1 de mayo de 2024 con lasaña. Además, aquí tienes tus gastos pendientes:
