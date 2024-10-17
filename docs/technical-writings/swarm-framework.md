@@ -154,8 +154,8 @@ def stream(self, id, messages, debug=False):
         context_variables={"id": id},
         stream=True
     )
-for chunk in stream:
-    yield chunk
+    for chunk in stream:
+        yield chunk
 ```
 
 ### 5. Handoffs Between Agents
@@ -179,6 +179,21 @@ def transfer_to_meal_agent() -> Agent:
     Transfer control to the Meal Agent for handling meal-related tasks.
     """
     return meal_agent
+
+expenses_agent: Agent = Agent(
+    name="Expenses Agent",  
+    instructions="""
+    Eres un experto en gestionar los gastos del Equipo. Tus respuestas deben ser en argentino.
+    """,
+    functions=[get_expenses_tool],
+    model="gpt-4o"
+)
+
+def transfer_to_expenses_agent() -> Agent:
+    """
+    Transfer control to the Expenses Agent for handling expenses-related tasks.
+    """
+    return expenses_agent
 
 gaby_agent = GabyAgent(tools=[transfer_to_meal_agent, transfer_to_expenses_agent])
 ```
