@@ -12,7 +12,8 @@ Here's a quick overview of the key changes I made:
 
 ### 1. Main Agent Definition
 
-In Swarm, agents are defined with their own instructions and available functions. This structure is similar to our previous implementation, but with some syntactic differences. We managed to reduce our implementation from 89 lines to just 36 lines, avoiding the need to define the Graph and States (nodes, edges, entry point, etc.).
+In Swarm, agents are defined with their own instructions and available functions. This structure is similar to our previous implementation, but with some syntactic differences. 
+We managed to reduce our implementation from 89 lines to just 36 lines, avoiding the need to define the Graph and States (nodes, edges, entry point, etc.).
 
 Here's a snippet of how I defined an agent in Swarm:
 
@@ -61,7 +62,8 @@ class GabyAgent:
 
 ### 2. Tools and Functions
 
-Swarm's approach to defining functions is simpler and more flexible than LangGraph's, relying mainly on LLM function calls. Since Pydantic models couldn't be used for function parameters as in our current solution, I adapted the tools to use docstrings for OpenAI API calls and passed the arguments explicitly to the function.
+Swarm's approach to defining functions is simpler and more flexible than LangGraph's, relying mainly on LLM function calls. 
+Since Pydantic models couldn't be used for function parameters as in our current solution, I adapted the tools to use docstrings for OpenAI API calls and passed the arguments explicitly to the function.
 
 ```python
 def set_meal_tool(context_variables, meal: str, date: str):
@@ -117,8 +119,8 @@ response_content = gaby_agent.invoke(
     debug=False
 )
 ```
-```
 Output:
+```
 ¡Listo! He establecido el plan de comidas para el 1 de mayo de 2024 con lasaña. Además, aquí tienes tus gastos pendientes:
 
 1. **Comida**: $50.00 (Fecha: 2023-05-01)
@@ -149,7 +151,7 @@ To track requests by default, our solution uses Langsmith, which provides a deta
 
 ### 5. Streaming with Swarm
 
-Swarm supports streaming responses, which can be particularly useful for providing a more responsive user experience. Here's an example of how to use streaming with Swarm:
+The library supports streaming responses, which can be particularly useful for providing a more responsive user experience. Here's an example of how to use streaming with Swarm:
 
 ```python
 def stream(self, id, messages, debug=False):
