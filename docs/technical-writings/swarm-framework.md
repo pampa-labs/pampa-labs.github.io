@@ -1,6 +1,6 @@
-# Exploring OpenAI's Swarm: A New Frontier in Agent Orchestration
+# OpenAI's Swarm: The Power of Right Abstractions to Build Multi-Agent Systems
 
-After the public release of OpenAI's Swarm framework, I decided to dive in and explore its potential. In this post, I'll share my experience migrating a real-world application from LangGraph to Swarm, and discuss the opportunities this new framework presents.
+After the public release of OpenAI's Swarm, a library to build reliable multi-agent systems, I decided to dive in and explore its potential. In this post, I'll share my experience migrating a real-world application from LangGraph to Swarm, and discuss the opportunities this new library presents.
 
 ## From LangGraph to Swarm: A 1-Hour Migration
 
@@ -141,7 +141,13 @@ response = self.client.run(
 
 Currently, we are using checkpoints to save memory between calls in LangGraph. In Swarm, I couldn't find a built-in memory management feature, so if we needed to manage it, we would have to implement our own solution to maintain conversation history.
 
-### 4. Streaming with Swarm
+### 4. Tracking Requests
+
+As expected of an experimental library, Swarm offers deep debugging logging that helps in understanding agent behavior and interactions, but it lacks built-in tracking or monitoring capabilities.
+
+To track requests by default, our solution uses Langsmith, which provides a detailed structure of the nodes and the actions taken at each step. During this migration, we lost that feature and had to re-implement it using decorators.
+
+### 5. Streaming with Swarm
 
 Swarm supports streaming responses, which can be particularly useful for providing a more responsive user experience. Here's an example of how to use streaming with Swarm:
 
@@ -158,7 +164,7 @@ def stream(self, id, messages, debug=False):
         yield chunk
 ```
 
-### 5. Handoffs Between Agents
+### 6. Handoffs Between Agents
 
 I was pleasantly surprised by how quickly I could iterate and perform handoffs between agents. The process for defining handoffs is quite similar to Crewai's approach.
 
@@ -202,27 +208,32 @@ gaby_agent = GabyAgent(tools=[transfer_to_meal_agent, transfer_to_expenses_agent
 
 Swarm, as an experimental framework, shows great promise with its focused approach to agent orchestration:
 
-### 1. Simplicity and Core Focus
+1. Simplicity and Core Focus
 
 Swarm's design prioritizes ease of use, quick prototyping, and focuses on core functionalities, allowing developers to build custom solutions without unnecessary complexity, making it lightweight and easy to adapt.
 
-### 2. Flexibility
+2. Flexibility
 
 The framework allows for rapid definition and orchestration of multiple agents with different roles and capabilities.
 
-### 3. Experimental Nature
+3. Experimental Nature
 
 As an educational resource, Swarm explores new patterns in multi-agent systems, encouraging developers to learn about and experiment with agent orchestration.
 
-### 4. OpenAI Integration
+4. OpenAI Integration
 
 Swarm is designed to work seamlessly with OpenAI's models and APIs, making it an attractive option for developers already working within the OpenAI ecosystem.
 
 ## Conclusion
 
-OpenAI's Swarm offers a promising approach to agent orchestration with a focus on simplicity and flexibility. It is ideal for prototyping and building multi-agent systems, with potential for integration with OpenAI's models.
+OpenAI's Swarm stands out as a library developed with well-designed abstractions to build reliable multi-agent systems. It enables developers to create scalable and robust solutions while avoiding unnecessary complexity.
 
-As Swarm evolves, it will be interesting to see how it addresses limitations and expands capabilities. For now, it provides a fresh perspective on agent design, especially for those already working with OpenAI's ecosystem.
+Have you experimented with Swarm or similar frameworks? Share your experiences in the comments below.
 
-Have you tried experimenting with Swarm or a similar framework?
+## Notebook
 
+For a hands-on experience with the concepts discussed in this article, check out the accompanying Jupyter notebook:
+
+[Swarm Framework Example Notebook](https://github.com/pampa-labs/notebooks/blob/main/swarm_framework_example.ipynb)
+
+This notebook provides a step-by-step guide to implementing a multi-agent system using OpenAI's Swarm framework, demonstrating the concepts and code snippets discussed in this article.
