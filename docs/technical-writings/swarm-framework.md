@@ -1,14 +1,14 @@
 # OpenAI's Swarm: The Power of Right Abstractions to Build Multi-Agent Systems
 
-After the public release of OpenAI's Swarm, a library to build reliable multi-agent systems, I decided to dive in and explore its potential. In this post, I'll share my experience migrating a real-world application from LangGraph to Swarm, and discuss the opportunities this new library presents.
+After OpenAI announced the public release of Swarm, a library designed to build reliable multi-agent systems, I decided to dive in and explore its potential by migrating a real-world application from LangGraph to Swarm.
 
 ## From LangGraph to Swarm: A 1-Hour Migration
 
-To test and understand how Swarm works, I adapted the core of an internal app that we use at Pampa to manage our daily tasks, such as tracking expenses, ordering food, and booking meetings, among other features.
+At Pampa, we developed and use a productivity app to streamline our daily operations. This app, powered by AI agents and tools, efficiently manages tasks like expense tracking, meal ordering, and meeting scheduling. When OpenAI released Swarm, I saw the opportunity to migrate the core of our solution and discover how well the new library would fit.
 
-Our current solution is implemented using LangGraph, and I was pleasantly surprised to find that migrating to Swarm took less than one hour.
+I was pleasantly surprised to find that migrating our current solution, implemented using LangGraph, took less than one hour.
 
-Swarm's focus on ergonomics and simplicity made the transition relatively smooth. Here's a quick overview of the key changes I made:
+Here's a quick overview of the key changes I made:
 
 ### 1. Main Agent Definition
 
@@ -117,7 +117,7 @@ response_content = gaby_agent.invoke(
     debug=False
 )
 ```
-
+```
 Output:
 ¡Listo! He establecido el plan de comidas para el 1 de mayo de 2024 con lasaña. Además, aquí tienes tus gastos pendientes:
 
@@ -125,7 +125,7 @@ Output:
 2. **Café**: $5.00 (Fecha: 2023-05-02)
 
 Si necesitas algo más, no dudes en avisarme. 😊
-
+```
 ### 3. Context Variables for State Management
 
 Context variables enable state management across agent interactions, allowing us to pass configuration variables like `id` for use throughout the interactions:
@@ -204,31 +204,25 @@ def transfer_to_expenses_agent() -> Agent:
 gaby_agent = GabyAgent(tools=[transfer_to_meal_agent, transfer_to_expenses_agent])
 ```
 
-## Potential and Focus of Swarm
+## Potential of Swarm
 
-Swarm, as an experimental framework, shows great promise with its focused approach to agent orchestration:
+Swarm, as an experimental library, shows great promise with its approach to agent orchestration:
 
 1. Simplicity and Core Focus
 
-Swarm's design prioritizes ease of use, quick prototyping, and focuses on core functionalities, allowing developers to build custom solutions without unnecessary complexity, making it lightweight and easy to adapt.
+The design prioritizes ease of use and quick prototyping, focusing on core functionalities that allow developers to build custom solutions without unnecessary complexity. This makes it lightweight and easy to adapt.
 
 2. Flexibility
 
-The framework allows for rapid definition and orchestration of multiple agents with different roles and capabilities.
+It allows for the rapid definition and orchestration of multiple agents with different roles and capabilities.
 
 3. Experimental Nature
 
-As an educational resource, Swarm explores new patterns in multi-agent systems, encouraging developers to learn about and experiment with agent orchestration.
+As an educational resource, it explores new patterns in multi-agent systems, encouraging developers to learn and experiment with agent orchestration.
 
 4. OpenAI Integration
 
-Swarm is designed to work seamlessly with OpenAI's models and APIs, making it an attractive option for developers already working within the OpenAI ecosystem.
-
-## Conclusion
-
-OpenAI's Swarm stands out as a library developed with well-designed abstractions to build reliable multi-agent systems. It enables developers to create scalable and robust solutions while avoiding unnecessary complexity.
-
-Have you experimented with Swarm or similar frameworks? Share your experiences in the comments below.
+Designed to integrate seamlessly with OpenAI's models and APIs, it provides a straightforward way for developers to leverage these tools.
 
 ## Notebook
 
@@ -237,3 +231,9 @@ For a hands-on experience with the concepts discussed in this article, check out
 [Swarm Framework Example Notebook](https://github.com/pampa-labs/notebooks/blob/main/swarm_framework_example.ipynb)
 
 This notebook provides a step-by-step guide to implementing a multi-agent system using OpenAI's Swarm framework, demonstrating the concepts and code snippets discussed in this article.
+
+## Conclusion
+
+OpenAI's Swarm stands out as a library developed with well-designed abstractions to build reliable multi-agent systems. It enables developers to create scalable and robust solutions while avoiding unnecessary complexity.
+
+Have you experimented with Swarm or similar frameworks? Share your experiences in the comments below.
