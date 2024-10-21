@@ -1,6 +1,16 @@
+---
+title: AI Tools for the Modern Engineer
+date: 2024-10-14
+authors:
+  - fpingham
+comments: true
+---
+
 # AI Tools for the Modern Engineer
 
 In the rapidly evolving landscape of software development, artificial intelligence has emerged as a game-changing force, offering tools that dramatically enhance productivity, creativity, and code quality. This post delves into three powerful AI-driven toolsets that are reshaping how developers work: Raycast, Claude + Langsmith, and Cursor + Codex. Let's explore how these tools can transform your workflow and take your coding to the next level.
+
+<!-- more -->
 
 ## Raycast: The AI-Powered Command Center for Developers
 

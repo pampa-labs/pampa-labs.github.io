@@ -1,3 +1,10 @@
+---
+title: Pampa Labs Technical Blog
+description: Your LLM Expertise Hub
+hide:
+  - feedback
+---
+
 # Welcome to Pampa Labs Technical Blog: Your LLM Expertise Hub
 
 Welcome to the Pampa Labs Technical Blog, your go-to resource for becoming proficient in Large Language Model (LLM) technologies. Our focus is on providing practical, hands-on knowledge to help you navigate the complex world of LLMs.
