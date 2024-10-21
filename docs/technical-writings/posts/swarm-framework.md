@@ -4,6 +4,8 @@ authors:
   - lgesuellip
 title: OpenAI's Swarm
 comments: true
+hide:
+  - feedback
 ---
 
 # OpenAI's Swarm: The Power of Right Abstractions to Build Multi-Agent Systems
