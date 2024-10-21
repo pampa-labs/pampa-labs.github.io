@@ -11,8 +11,8 @@ copyright: Copyright &copy; 2024 Pampa Labs
 theme:
   name: material
   logo: assets/pampa-labs.png
-  favicon: assets/pampa-labs.png
-  theme:
+  favicon: assets/pampa-labs.png 
+  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil 
@@ -125,7 +125,6 @@ nav:
   - Home: index.md
   - Technical Writings:
     - "technical-writings/index.md"
-
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
