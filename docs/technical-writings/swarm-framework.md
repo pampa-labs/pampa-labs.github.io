@@ -10,11 +10,7 @@ Here's a quick overview of the key aspects of the implementation.
 
 ### 1. Main Agent Definition
 
-The way to define an agent is similar to our current solution but with some syntactic differences.
-
-We managed to implement it in just 36 lines and found the abstractions to be well-suited for defining multi-agent architectures.
-
-Here's a snippet of how an agent is defined in Swarm:
+The agent definition in Swarm is conceptually similar to our current solution, but with some key syntactic differences. I was impressed by how concise and expressive the implementation turned out to be - just 36 lines of code. This brevity demonstrates the power of Swarm's well-designed abstractions for defining multi-agent architectures.
 
 ```python
 from swarm import Agent, Swarm
@@ -153,9 +149,7 @@ To track requests by default, our solution uses Langsmith, which provides a deta
 
 ### 5. Streaming
 
-The library also supports streaming responses, which can be particularly useful for providing a more responsive user experience.&#x20;
-
-Here's an example of how to use streaming:
+The library also supports streaming responses, which can be particularly useful for providing a more responsive user experience.
 
 ```python
 def stream(self, id, messages, debug=False):
@@ -176,7 +170,11 @@ I surprised by how quickly I could iterate and perform handoffs between agents. 
 
 In our use case, I was able to efficiently split tasks across different agents to divide responsibilities, such as creating a meal agent and an expenses agent.
 
-As you can see, I didn't need to modify the tools—only define the transfer functions.
+Here's a diagram illustrating the structure of our multi-agent system using Swarm:
+
+![Swarm Multi-Agent System](../assets/swarm-multi-agent-system.png)
+
+As illustrated in the diagram, the beauty of this approach lies in its simplicity. I didn't need to modify the existing tools at all. Instead, I only had to define the transfer functions, which act as bridges between the main agent and the specialized agents. This elegant design allows for seamless task delegation and efficient collaboration between agents, all while maintaining the integrity of the individual tools and their functionalities.
 
 ```python
 meal_agent: Agent = Agent(
