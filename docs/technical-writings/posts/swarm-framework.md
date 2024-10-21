@@ -2,7 +2,7 @@
 date: 2024-10-21
 authors:
   - lgesuellip
-title: OpenAI's Swarm: The Power of Right Abstractions to Build Multi-Agent Systems
+title: OpenAI's Swarm
 comments: true
 ---
 
@@ -12,7 +12,7 @@ After OpenAI announced the public release of Swarm, a library designed to build 
 
 <!-- more -->
 
-## Swarm: A Simple Multi-Agent Solution
+## A Multi-Agent Solution
 
 I adapted our productivity app at Pampa, which uses a combination of AI agents and tools to streamline various tasks such as expense tracking, meal ordering, and meeting scheduling, all in less than one hour.
 
@@ -129,7 +129,8 @@ response_content = gaby_agent.invoke(
 
 Output:
 
-```¡Listo!
+```console
+¡Listo!
 1. **Comida**: $50.00 (Fecha: 2023-05-01)
 2. **Café**: $5.00 (Fecha: 2023-05-02)
 
@@ -182,7 +183,7 @@ In our use case, I was able to efficiently split tasks across different agents t
 
 Here's a diagram illustrating the structure of our multi-agent system using Swarm:
 
-![Swarm Multi-Agent System](../assets/swarm-multi-agent-system.png)
+![Swarm Multi-Agent System](../../assets/swarm-multi-agent-system.png)
 
 As illustrated in the diagram, the beauty of this approach lies in its simplicity. I didn't need to modify the existing tools at all. Instead, I only had to define the transfer functions, which act as bridges between the main agent and the specialized agents. This elegant design allows for seamless task delegation and efficient collaboration between agents, all while maintaining the integrity of the individual tools and their functionalities.
 

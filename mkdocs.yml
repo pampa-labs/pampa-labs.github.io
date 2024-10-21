@@ -125,7 +125,6 @@ nav:
   - Home: index.md
   - Technical Writings:
     - "technical-writings/index.md"
-
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
