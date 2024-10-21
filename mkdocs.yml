@@ -12,6 +12,7 @@ theme:
   name: material
   logo: assets/pampa-labs.png
   favicon: assets/pampa-labs.png
+  theme:
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil 
