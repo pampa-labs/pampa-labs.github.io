@@ -28,20 +28,32 @@ This repository contains the source for the Pampa Labs Technical Blog, built usi
    docs/category/your-new-page.md
    ```
 
-2. Update the `nav` section in `mkdocs.yml` if adding a new category or top-level page.
+2. The `nav` section in `mkdocs.yml` is now automatically generated based on the file structure in the `docs/` directory. There's no need to manually update it.
 
-3. Add the blog entry to the `nav` section in `mkdocs.yml`. The corresponding place depends on the category of your blog post:
-   - For technical writings, add it under the "Technical Writings" section.
-   - For new top-level categories, add a new section at the appropriate level.
-
-   Example:
+3. Ensure your new Markdown file includes the necessary front matter:
    ```yaml
-   nav:
-     - Home: index.md
-     - Technical Writings:
-       - "technical-writings/existing-post.md"
-       - "technical-writings/your-new-post.md"  # Add your new post here
+   ---
+   title: Your Page Title
+   description: A brief description of your page
+   date: YYYY-MM-DD
+   authors:
+     - Your Name
+   tags:
+     - tag1
+     - tag2
+   ---
    ```
+
+To add a new author to the blog, open the `authors.yml` file and add the new author's information following this format:
+
+```yaml
+extra:
+  authors:
+    author_id:
+      name: Full Name
+      description: A brief bio or description
+      avatar: path/to/avatar/image.jpg  # Optional
+```
 
 4. Commit your changes and push to the main branch.
 
