@@ -4,8 +4,6 @@ date: 2024-10-14
 authors:
   - fpingham
 comments: true
-hide:
-  - feedback
 ---
 
 # AI Tools for the Modern Engineer
