@@ -18,11 +18,11 @@ One of the key ingredients that gets overlooked is the *Ground Truth Dataset*: t
 
 I want to talk about something that’s often treated as optional, when it really shouldn’t be. Having a solid Ground Truth is as necessary as defining a project roadmap. You wouldn’t kick off a project without knowing what success looks like, so *why would you launch an LLM-based project without knowing what correct answers are?* The Ground Truth is what defines how you want your agent to respond and the specific standards you are aiming for. Without it, how can you measure your progress or even know if your solution is hitting the mark?
 
-I’ve seen many projects where people skip this step because it’s challenging or costly—requiring involvement from subject matter experts (SMEs) and the broader team. But trust me, **having a well-defined Ground Truth is a must from the start**. Yes, it’s resource-intensive, but it’s also foundational. Without it, you’re flying blind, relying only on a *“vibe check”* or intuition about whether the model is doing well. And that’s just not enough...
+I’ve seen many projects where people skip this step because it’s challenging or costly—requiring involvement from subject matter experts (SMEs) and the broader team. But trust me, **buildinga well-defined Ground Truth dataset is a must from the start**. Yes, it’s resource-intensive, but it’s also foundational. Without it, you’re flying blind, relying only on a *vibe check* or intuition about whether the LLM is doing well. And that’s just not enough...
 
-So, what does a good Ground Truth look like? We don't always know the perfect answer, but we must know what information is needed to generate a correct answer. Also, format and style should be considered when defining the Ground Truth.
+So, what does a good Ground Truth look like? We don't always know the perfect answer, but we must know what information is needed to generate the correct answer. Also, format and style should be considered when defining the Ground Truth. Let's look at the examples below:
 
-User: 
+Input prompt: 
 
 - **Poor Ground Truth**: 
 - **Good Ground Truth**: 
@@ -33,7 +33,7 @@ When embarking on an LLM-based project, you have to ask yourself two main questi
 
 ![SMEs Scale](../../assets/SMEs-scale.png)
 
-Ground Truth creation must not be a solo SME job. It's a collaborative process that should involve both SMEs and AI engineers, working together in a well-oiled loop. The SME's role is to provide all the necessary information for a good response, while it's the responsibility of the science team to achieve this in practice. Any updates to the documentation or changes to Ground Truth should be easy to implement across the system. Creating a streamlined pipeline here makes it easier to keep everything accurate and current, allowing the SMEs to focus on providing expert knowledge while the AI team focuses on implementation and optimization.
+**Ground Truth creation must not be a solo SME job**. It's a collaborative process that should involve both SMEs and AI engineers, working together in a well-oiled loop. The SME's role is to provide all the necessary information for a good response, while it's the responsibility of the science team to achieve this in practice. Any updates to the documentation or changes to Ground Truth should be easy to implement across the system. Creating a streamlined pipeline here makes it easier to keep everything accurate and current, allowing the SMEs to focus on providing expert knowledge while the AI team focuses on implementation and optimization.
 
 ## Using Synthetic Data as a Starting Point
 
@@ -47,6 +47,6 @@ A tip I’d like to share: if you don’t yet have validated Ground Truth, defin
 
 - *Difficulty in Iteration*: Constant iteration of the golden dataset can be unrealistic when trying to maintain an agile pipeline. Changes in documentation or expectations could require deeper and slower revisions than expected.
 
-- *Excessive Emphasis on Human Validation*: Relying heavily on human validation can be costly and slow, especially at scale. Instead, a more automated approach to evaluation could be suggested.
+- *Excessive Emphasis on Human Validation*: Relying heavily on human validation can be costly and slow, especially at scale. 
 
 
