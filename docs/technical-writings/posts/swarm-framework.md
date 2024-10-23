@@ -8,7 +8,7 @@ hide:
   - feedback
 ---
 
-# OpenAI's Swarm: The Power of Right Abstractions to Build Multi-Agent Systems
+# OpenAI's Swarm: The Power of Right Abstractions
 
 After OpenAI announced the public release of Swarm, a library designed to build reliable multi-agent systems, I decided to dive in and explore its potential by integrating it into a real-world application.
 
