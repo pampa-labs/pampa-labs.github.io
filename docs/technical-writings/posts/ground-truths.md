@@ -43,7 +43,7 @@ Input prompt: *What are the main features of the premium membership plan?*
 
 ## Ground Truth is a joint effort
 
-When embarking on an LLM-based project, you have to ask yourself two main questions: What do we want the system to do? And what should the system never do? Right from this initial discussion, we need to think about the Ground Truth — how will we get it, who will create it, and who will validate it. 
+Starting an LLM project requires defining what the system should and shouldn't do, while planning how to create and validate the Ground Truth data needed to achieve these goals.
 
 **Here's the deal: Your SMEs don't need a PhD in AI** — but they do need to grasp what makes Ground Truth tick. Think of it like teaching someone to drive: they don't need to know how the engine works, but they need to understand the rules of the road. Let's show them exactly how their expertise fits into the bigger picture. 
 
@@ -66,12 +66,6 @@ Generate questions from your existing documentation and have an LLM provide theo
 
 This approach can be useful for setting up a baseline evaluation suite without relying entirely on SMEs from day one. But remember, **synthetic data is a starting point, not an end goal**. It’s tempting to stick with it, but you need to move on to real Ground Truths validated by SMEs. 
 
-#### Not a long-term solution
-
-In the long run, incorporating production traces into your dataset is also a must. 
-
-*Synthetic datasets are a great way to get off the ground, but they’re not where you should stop.*
-
 ## Avoid These Common Pitfalls
 
 - *Overburdening SMEs*: Don't expect SMEs to become LLM experts. Instead, create structured processes where they focus solely on domain expertise while AI engineers handle technical aspects.
@@ -80,6 +74,10 @@ In the long run, incorporating production traces into your dataset is also a mus
 
 - *Stuck in the Iteration Loop?*: Don't let ground truth updates become a bottleneck! Keep your momentum by using version control, breaking changes into bite-sized pieces, focusing on high-impact updates first.
 
+---
 
+Think of Ground Truth as your LLM project's compass – get it right, and everything else falls into place. Sure, establishing rock-solid Ground Truth might feel like finding true north at first, but every step in the right direction translates directly into an LLM that can be trusted. 
+
+Your future self (and your users!) will thank you for putting in the work today.
 
 
