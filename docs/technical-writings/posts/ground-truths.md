@@ -8,9 +8,9 @@ comments: true
 
 # A Truth Your Domain Experts Can’t Ignore
 
-Working with generative AI isn't not just about building cool agents that can cover multiple use cases — it's also about making sure those agent deliver the right answers, **every time**. 
+Want your AI to deliver accurate answers every time? There's a critical element many teams overlook.
 
-One of the key ingredients that gets overlooked is the *Ground Truth Dataset*: the set of human inputs used as reference against which we evaluate a language model to ensure that it works as expected. While there are reference-free metrics in LLM evaluation that do not require a Ground Truth, **a good *evaluation suite* should include reference-based metrics** to ensure comprehensive assessment.
+A *Ground Truth Dataset* is your foundation for reliable LLM evaluation. While some metrics don't need it, having this human-validated reference data is essential for truly understanding if your AI is performing as intended. Read on to discover why your Subject Matter Experts need to care about Ground Truth, and how to build it right.
 
 <!-- more -->
 
