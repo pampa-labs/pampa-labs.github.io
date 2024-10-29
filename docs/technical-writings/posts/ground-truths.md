@@ -30,9 +30,13 @@ Without it, you’re flying blind, relying only on a *vibe check* or intuition a
 
 ## Ground Truth must be true
 
-So, what does a good Ground Truth look like? We don't always know the perfect answer, but we must know what information is needed to generate the correct answer. 
+So, what does a good Ground Truth look like? When working with SMEs to create a Ground Truth dataset, you should expect them to provide:
 
-Also, *format* and *style* should be considered when defining the Ground Truth. 
+1. Essential information elements that must be present in any correct response
+2. Acceptable variations in how information can be presented
+3. Clear guidelines on tone and style requirements
+
+Given the probabilistic nature of LLMs, we can't expect them to produce identical answers every time. However, your experts should clearly define what constitutes a valid response, including both content requirements and presentation standards. This becomes your Ground Truth - not rigid, word-for-word templates, but rather a comprehensive specification that ensures consistency and accuracy across all responses. 
 
 Let's look at the examples below:
 
