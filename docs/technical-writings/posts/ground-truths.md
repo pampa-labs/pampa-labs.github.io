@@ -1,5 +1,5 @@
 ---
-title: You want your SMEs to read this
+title: A Truth Your Domain Experts Can’t Ignore
 date: 2024-10-29
 authors:
   - lpetralli
