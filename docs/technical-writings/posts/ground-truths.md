@@ -1,6 +1,6 @@
 ---
 title: You want your SMEs to read this
-date: 2024-10-21
+date: 2024-10-29
 authors:
   - lpetralli
 comments: true
