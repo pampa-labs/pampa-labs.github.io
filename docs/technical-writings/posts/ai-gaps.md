@@ -1,6 +1,6 @@
 ---
-title: AI’s First Day — Exposing the Gaps
-date: 2024-11-05
+title: AI’s First Day on the Job: Exposing the Gaps
+date: 2024-11-12
 authors:
   - lpetralli
 comments: true
