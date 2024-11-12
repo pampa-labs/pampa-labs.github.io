@@ -1,12 +1,12 @@
 ---
-title: AI’s First Day on the Job: Exposing the Gaps
+title: AI’s First Day on the Job - Exposing the Gaps
 date: 2024-11-12
 authors:
   - lpetralli
 comments: true
 ---
 
-# AI’s First Day on the Job: Exposing the Gaps
+# AI’s First Day on the Job - Exposing the Gaps
 
 Bringing AI into a company is like hiring a new employee — one that’s demanding, detail-oriented, and can’t rely on intuition. AI, like any new team member, needs everything explained clearly and thoroughly. 
 
