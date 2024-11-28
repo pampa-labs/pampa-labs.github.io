@@ -8,7 +8,7 @@ comments: true
 
 # The Great Process Reset
 
-What if AI could free us from endless paperwork? Through Tukki's legal-tech journey, discover how proper digital foundations—not AI alone—can transform administrative tedium into meaningful work.
+What if AI could free us from endless paperwork? Through Tukki's legal-tech journey, learn how proper digital foundations can transform administrative tedium into meaningful work.
 
 <!-- more -->
 
