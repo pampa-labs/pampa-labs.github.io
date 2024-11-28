@@ -52,4 +52,4 @@ This approach has already paid dividends:
 
 ## Wrapping up
 
-As Tukki's story shows us, the key is building the right foundation first. Before you can unlock AI's potential, your processes need to be organized and digital. It's straightforward: build your digital foundation, and AI becomes the accelerator that transforms bureaucratic paperwork into high-value work. No shortcuts – just strategic groundwork to become truly *LLM native*.
+As Tukki's story shows us, AI is not a magic wand that solves al our problems. It is an accelerator, and the key to using it wisely is building the right foundation first. Before you can unlock AI's potential, your processes need to be organized and digital. It's straightforward: build your digital foundation, and AI becomes the accelerator that transforms bureaucratic paperwork into high-value work. No shortcuts – just strategic groundwork to become truly *LLM native*.
