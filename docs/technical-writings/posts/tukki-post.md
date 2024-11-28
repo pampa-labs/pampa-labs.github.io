@@ -36,7 +36,7 @@ This means taking a hard look at your processes and data. Are your documents dig
 This need for strong foundations is exactly what *Tukki* embraced when building their legal-tech platform. Focused on transforming the US immigration experience, Tukki demonstrates how starting with the basics - organizing workflows and digitizing processes - can lay the groundwork for effective AI implementation.
 
 
-## Tukki Case
+## A real life example: Tukki
 
 Tukki.ai is a legal-tech startup that’s bringing a premium US immigration experience to all by uniting tech and lawyers under the same roof. If you want to move to or work in the US, you can hire Tukki to access their platform which powers their top notch paralegal team and an immigration attorney—designated to you based on your unique case. They charge the same as a traditional law firm that handles everything manually, but you get to see every step, advance, and task at a glance. No more losing files in emails, chasing lawyers, or endless back-and-forth on Word docs. 
 
@@ -50,6 +50,6 @@ This approach has already paid dividends:
 - The organization of legal work turned out to be a large undertaking in itself, efficiencies gained simply by organizing and documenting everything in one place made the processes way better straight off the bat—without AI!
 - As soon as they make a release that allows a process to be handled on-platform, the users begin to generate useful data. This allowed Tukki’s team to introduce some AI in a very natural way. In fact, they recently updated some of these models by taking a larger dataset into account, which further enhanced the efficiencies.
 
----
+## Wrapping up
 
 As Tukki's story shows us, the key is building the right foundation first. Before you can unlock AI's potential, your processes need to be organized and digital. It's straightforward: build your digital foundation, and AI becomes the accelerator that transforms bureaucratic paperwork into high-value work. No shortcuts – just strategic groundwork to become truly *LLM native*.
