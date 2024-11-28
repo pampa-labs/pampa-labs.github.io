@@ -14,11 +14,11 @@ What if AI could free us from endless paperwork? Through Tukki's legal-tech jour
 
 ---
 
-We've all been there. Staring at yet another form, clicking through endless screens, or jumping through bureaucratic hoops that seem to exist purely for the sake of existing. You know it's pointless. I know it's pointless. Even the person who designed it probably knows it's pointless. Yet we play by these arbitrary rules, because that's just how things are done.
+We've all been there. Staring at yet another form, clicking through endless screens, or jumping through bureaucratic hoops that seem to exist purely for the sake of existing. You know it's pointless. I know it's pointless. *Even the person who designed it probably knows it's pointless*. Yet we play by these arbitrary rules, because that's just how things are done.
 
-But what if they didn't have to be? What if the rise of AI could finally break this cycle of bureaucratic madness? While we might not be able to eliminate bureaucracy entirely (let's be realistic), we now have the power to transform these often senseless processes into something more bearable – maybe even efficient.
+But what if they didn't have to be? What if the rise of AI could finally break this cycle of bureaucratic madness? While we might not be able to eliminate bureaucracy entirely (let's be realistic), we now have the power to transform these often senseless processes into something more bearable – maybe even efficient. 
 
-The promise isn't just about automating paperwork. It's about fundamentally rethinking how we build technology, making it work for people rather than against them.
+The promise isn't just about automating paperwork. It's about fundamentally **rethinking how we build technology**, making it work for people rather than against them. 
 
  
 ## Freeing professionals from low-value chores
@@ -29,7 +29,7 @@ AI is reshaping this landscape, not by sidelining these professionals, but by fr
 
 ## Digital Foundation
 
-Here's the catch, though: AI isn't magic. It can't make sense of scattered paper files, inconsistent spreadsheets, or processes that exist only in your team members' heads. The irony is striking – while we debate how close we are to AGI, many of us still queue at government offices, clutching 500-page paper forms for procedures that seem to last an eternity. 
+Here's the catch, though: AI isn't magic. It can't make sense of scattered paper files, inconsistent spreadsheets, or processes that exist only in your team members' heads. *The irony is striking – while we debate how close we are to AGI, many of us still queue at government offices, clutching 500-page paper forms for procedures that seem to last an eternity*. 
 
 This means taking a hard look at your processes and data. Are your documents digitized and properly structured, or are they gathering dust in filing cabinets? Can your systems communicate seamlessly, or are they operating in isolation? Have you standardized your workflows, or is each department running its own show? These aren't mere IT checkboxes – these are enablers for impactful AI applications: the better the foundations on which you'll deploy AI, the more impact it can achieve. A poor foundation will constrain AI projects to live within silos, just as many teams do operate nowadays in large organizations.
 
