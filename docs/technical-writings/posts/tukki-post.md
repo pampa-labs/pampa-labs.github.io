@@ -1,6 +1,6 @@
 ---
 title: The Great Process Reset
-date: 2024-11-28
+date: 2024-11-29
 authors:
   - lpetralli
 comments: true
