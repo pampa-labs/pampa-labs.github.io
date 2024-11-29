@@ -42,7 +42,7 @@ This need for strong foundations is exactly what *Tukki* embraced when building 
 
 When Ramiro Roballos and Saveliy Vasilev, the founders of Tukki, launched the company, the temptation was to tinker with AI from day 1—everyone was trying to surf the AI wave. However, they knew that without proper foundations, they'll get only so far. From their former consulting careers, Ramiro and Saveliy gained insights into applying AI in organizations—big and small. A key learning was: If you're aiming for a large and sustainable impact with AI, you better get the technological basics right first. Only with a sound foundation can you feed the models and consume their outputs effectively. Getting the basics right means capturing most of the data flows in your digital medium of choice, as long as it is easily consumable for a data science team. 
 
-![Tukki's platform showing how digital tasks are handled](../../../assets/Pampa Tukki Conversation.png)
+![Tukki's platform showing how digital tasks are handled](../../assets//Pampa Tukki Conversation.png)
 *Tukki's platform showing how digital tasks are handled*
 
 
