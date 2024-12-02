@@ -44,7 +44,7 @@ When Ramiro Roballos and Saveliy Vasilev, the founders of Tukki, launched the co
 
 A key learning was: If you're aiming for a large and sustainable impact with AI, you better get the technological basics right first. Only with a sound foundation can you feed the models and consume their outputs effectively. Getting the basics right means capturing most of the data flows in your digital medium of choice, as long as it is easily consumable for a data science team. 
 
-![Tukki's platform showing how digital tasks are handled](../../assets//Pampa Tukki Conversation.png)
+![Tukki's platform showing how digital tasks are handled](../../assets/Tukki from Pampa Labs.png)
 *Tukki's platform showing how digital tasks are handled*
 
 
