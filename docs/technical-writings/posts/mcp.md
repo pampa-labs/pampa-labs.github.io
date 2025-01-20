@@ -127,7 +127,7 @@ Finally, as David Soria Parra (the creator of Model Context Protocol) noted on t
 
 ![LangGraph Integration](../../assets/mcp_server-client.png)
 
-To integrate the server that I showed before—or any server of your choice—with LangGraph, a low code agentic framework, the best for complex workflows or fine-grained control, I implemented an abstraction that allows your agents to access MCP tool servers in **just a few lines of code**, allowing developers to add tools, validate inputs, and manage executions with minimal effort:
+To integrate the server that I showed before—or any server of your choice—with LangGraph, a low code agentic framework (the best for complex workflows or fine-grained control :) ), I implemented an abstraction that allows your agents to access MCP tool servers in **just a few lines of code**, allowing developers to add tools, validate inputs, and manage executions with minimal effort:
 
 ```python
 tools = []
@@ -135,7 +135,7 @@ async with LangGraphMCPClient(params) as mcp:
     tools.extend(await mcp.get_tools())
     graph = create_react_agent(ChatOpenAI("gpt-4o"), tools=tools)
 ```
-Additionally, you can integrate it with other ecosystems like ArcadeAI, which is very similar to the architecture presented, and enhance our agents' toolkits with authentication options (Google, X, Slack, etc.).
+Additionally, you can integrate it with other ecosystems like ArcadeAI, which has a similar architecture, and enhance our agents with pre-built tools with auth (Google, X, Slack).
 
 ```python
 tools = []
@@ -145,7 +145,7 @@ async with LanggraphMCPClient(server_params=server_params) as mcp_client:
     tools.extend(await mcp_client.get_tools())
     
      # Get tools from Arcade
-    tool_arcade_manager = ArcadeToolManager(api_key=os.getenv("ARCADE_API_KEY"))
+    tool_arcade_manager = ArcadeToolManager()
     tools.extend(tool_arcade_manager.get_tools(toolkits=["slack"]))
 ```
 
@@ -153,7 +153,6 @@ You can find more details here:
  
 - The complete LangGraph-MCP integration: [LangGraph MCP Client](https://github.com/lgesuellip/researcher_agent/tree/main/core)
 - The core abstraction layer implementation: [LangGraph MCP Manager](https://github.com/lgesuellip/researcher_agent/blob/main/core/clients/langgraph/client.py)
-
 
 ```python
 class LanggraphMCPClient(BaseMCPClient):
