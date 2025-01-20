@@ -16,13 +16,13 @@ hide:
 
 # Connecting MCP Servers to LangGraph
 
-## Introduction
-
-At the last MCP hackathon, I had the opportunity to delve into the Model Context Protocol (MCP), a transformative framework introduced by Anthropic in December 2024. With its flexible and extensible architecture, MCP not only simplifies but also standardizes communication between LLM applications and integrations providing developers with a seamless and efficient foundation for building advanced actors.
-
 In this article, I'll take you through the step-by-step process of building an MCP server and connecting it to a custom solution on LangGraph (client).
 
 <!-- more -->
+
+## Introduction
+
+At the last MCP hackathon, I had the opportunity to delve into the Model Context Protocol (MCP), a transformative framework introduced by Anthropic in December 2024. With its flexible and extensible architecture, MCP not only simplifies but also standardizes communication between LLM applications and integrations providing developers with a seamless and efficient foundation for building advanced actors.
 
 ## MCP Architecture Overview
 
