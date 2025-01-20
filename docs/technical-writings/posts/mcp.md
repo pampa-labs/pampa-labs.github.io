@@ -111,7 +111,7 @@ async def handle_call_tool(
 
 You can check out the full implementation in the [MCP Server](https://github.com/lgesuellip/researcher_agent/tree/main/servers) repository.
 
-Another good example is the [exa-mcp-server](https://github.com/exa-labs/exa-mcp-server), developed by Ishan Goswami. It serves as a flexible web searcher and highlights MCP's adaptability. You can explore it here. And for more details and examples, visit the MCP website.
+Another good example is the [exa-mcp-server](https://github.com/exa-labs/exa-mcp-server), developed by EXA (Ishan Goswami). It serves as a flexible web searcher and highlights MCP's adaptability.
 
 Finally, as David Soria Parra (the creator of https://modelcontextprotocol.io) noted on this [X post](https://x.com/lgesuelli_p/status/1866622405340434490), one MCP server can call another, enabling developers to build sophisticated, layered solutions.
 
@@ -127,8 +127,7 @@ async with LangGraphMCPClient(params) as mcp:
     tools.extend(await mcp.get_tools())
     graph = create_react_agent(ChatOpenAI("gpt-4o"), tools=tools)
 ```
-
-Also, you can integrate it wiht another ecosytem like ArcadeAI that is so familiar, and add to our agents toolkits with auth (Google, X, Slack, etc).
+Additionally, you can integrate it with other ecosystems like ArcadeAI, which is very similar to the architecture presented, and enhance our agents' toolkits with authentication options (Google, X, Slack, etc.).
 
 You can find more details here:
  
