@@ -43,7 +43,7 @@ An example of an MCP server in action is this website researcher service that I 
 
 ![Agentic Web Scraping Architecture](../../assets/mcp_web_firecrawl_server.png)
 
-To achieve this, you just need to implement two primary functions: one for defining the schema (`handle_list_tools`) and another for managing the tool's logic (`handle_call_tool`):
+To achieve this, I implemented the two primary functions: one for defining the schema (`handle_list_tools`) and another for managing the tool's logic (`handle_call_tool`):
 
 ```python
 server = Server("website_firecrawl_service")
@@ -109,7 +109,7 @@ async def handle_call_tool(
         ]
 ```
 
-Then, you can run the server with the following command, and the server will be available to consume from any MCP client:
+Then, I just needed to run the server with the following command, and the server would be available to consume from any MCP client:
 
 ```bash
 uv run website_firecrawl_service
@@ -119,7 +119,7 @@ You can view the complete implementation in the [MCP Server](https://github.com/
 
 ![MCP Servers](../../assets/mcp_servers.png)
 
-As shown in the diagram, we can add additional servers to our agent, enabling seamless interactions between them. A notable example is the [exa-mcp-server](https://github.com/exa-labs/exa-mcp-server), developed by EXA (Ishan Goswami), which allows performing web searches using EXA Searcher.
+As shown in the diagram, we can add additional servers to the agent, enabling seamless interactions between them. A good example is the [exa-mcp-server](https://github.com/exa-labs/exa-mcp-server), developed by EXA (Ishan Goswami), which allows performing web searches using EXA Searcher.
 
 Finally, as David Soria Parra (the creator of Model Context Protocol) noted on this [X post](https://x.com/lgesuelli_p/status/1866622405340434490), one MCP server can call another, allowing developers to build sophisticated, layered solutions.
 
