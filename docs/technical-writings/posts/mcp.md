@@ -43,7 +43,7 @@ An example of an MCP server in action is this website researcher service that I 
 
 ![Agentic Web Scraping Architecture](../../assets/mcp_web_firecrawl_server.png)
 
-To achieve this, I implemented two primary functions: one for defining the schema (`handle_list_tools`) and another for managing the tool's logic (`handle_call_tool`):
+To achieve this, you just need to implement two primary functions: one for defining the schema (`handle_list_tools`) and another for managing the tool's logic (`handle_call_tool`):
 
 ```python
 server = Server("website_firecrawl_service")
@@ -109,17 +109,25 @@ async def handle_call_tool(
         ]
 ```
 
-You can check out the full implementation in the [MCP Server](https://github.com/lgesuellip/researcher_agent/tree/main/servers) repository.
+Then, you can run the server with the following command, and the server will be available to consume from any MCP client:
 
-Another good example is the [exa-mcp-server](https://github.com/exa-labs/exa-mcp-server), developed by EXA (Ishan Goswami). It serves as a flexible web searcher and highlights MCP's adaptability.
+```bash
+uv run website_firecrawl_service
+```
 
-Finally, as David Soria Parra (the creator of https://modelcontextprotocol.io) noted on this [X post](https://x.com/lgesuelli_p/status/1866622405340434490), one MCP server can call another, enabling developers to build sophisticated, layered solutions.
+You can view the complete implementation in the [MCP Server](https://github.com/lgesuellip/researcher_agent/tree/main/servers) repository. It is compatible with any MCP client you choose, such as Claude Desktop, Langgraph, or any other MCP client.
+
+![MCP Servers](../../assets/mcp_servers.png)
+
+As shown in the diagram, we can add additional servers to our agent, enabling seamless interactions between them. A notable example is the [exa-mcp-server](https://github.com/exa-labs/exa-mcp-server), developed by EXA (Ishan Goswami), which allows performing web searches using EXA Searcher.
+
+Finally, as David Soria Parra (the creator of Model Context Protocol) noted on this [X post](https://x.com/lgesuelli_p/status/1866622405340434490), one MCP server can call another, allowing developers to build sophisticated, layered solutions.
 
 ## LangGraph Integration (Client)
 
 ![LangGraph Integration](../../assets/mcp_server-client.png)
 
-To integrate the server that I showed before—or any server of your choice—with LangGraph, a low code agentic framework, the best for complex workflows or fine-grained control,I implemented an abstraction that allows your agents to access MCP tool servers in **just a few lines of code**, allowing developers to add tools, validate inputs, and manage executions with minimal effort:
+To integrate the server that I showed before—or any server of your choice—with LangGraph, a low code agentic framework, the best for complex workflows or fine-grained control, I implemented an abstraction that allows your agents to access MCP tool servers in **just a few lines of code**, allowing developers to add tools, validate inputs, and manage executions with minimal effort:
 
 ```python
 tools = []
@@ -128,6 +136,18 @@ async with LangGraphMCPClient(params) as mcp:
     graph = create_react_agent(ChatOpenAI("gpt-4o"), tools=tools)
 ```
 Additionally, you can integrate it with other ecosystems like ArcadeAI, which is very similar to the architecture presented, and enhance our agents' toolkits with authentication options (Google, X, Slack, etc.).
+
+```python
+tools = []
+
+# Get tools from MCP
+async with LanggraphMCPClient(server_params=server_params) as mcp_client:
+    tools.extend(await mcp_client.get_tools())
+    
+     # Get tools from Arcade
+    tool_arcade_manager = ArcadeToolManager(api_key=os.getenv("ARCADE_API_KEY"))
+    tools.extend(tool_arcade_manager.get_tools(toolkits=["slack"]))
+```
 
 You can find more details here:
  
