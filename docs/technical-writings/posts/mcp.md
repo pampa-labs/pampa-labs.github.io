@@ -33,7 +33,7 @@ Like REST standardizes web APIs, MCP is doing the same for LLMs—acting as a tr
 
 ![MCP Architecture](../../assets/mcp_architecture.png)
 
-In my opinion, MCP unifies the fragmented ecosystem by solving common developer issues when they want to buid agents. It eliminates the need to rewrite code for different languages, like Python and TypeScript, reduces maintenance headaches from adapting tools across frameworks, and saves time on bespoke solutions for integrating tools like scrapers with LLMs. With pre-built integrations, language-agnostic tools, and streamlined connections, MCP makes development faster and more efficient.
+In my opinion, MCP unifies the fragmented ecosystem by solving common developer issues when they want to build agents. It eliminates the need to rewrite code for different languages, like Python and TypeScript, reduces maintenance headaches from adapting tools across frameworks, and saves time on bespoke solutions for integrating tools like scrapers with LLMs. With pre-built integrations, language-agnostic tools, and streamlined connections, MCP makes development faster and more efficient.
 
 Let's dive into the implementation of an MCP server and how to connect it to LangGraph.
 
