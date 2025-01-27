@@ -16,6 +16,8 @@ hide:
 
 In this article, I'll take you through the step-by-step process of building an MCP server and connecting it to a custom solution on LangGraph (client).
 
+![LangGraph Integration](../../assets/mcp_server-client.png)
+
 <!-- more -->
 
 ## Introduction
