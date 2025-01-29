@@ -79,9 +79,7 @@ With decreasing switching costs, developers now have the freedom to choose among
 
 With modular building blocks and standardized protocols, frameworks are evolving from being component integrators to agent orchestrators. These frameworks serve a spectrum of developers, from those seeking simplicity to seasoned developers looking for advanced customization options.
 
-**High-Level Frameworks**: Libraries like CrewAI facilitate the creation of AI agent teams, each with specific roles and tools, working collaboratively to tackle complex tasks. It offers a user-friendly interface and streamlined workflow management, simplifying the development process
-
-**Lower-Level Frameworks**: Frameworks like LangGraph and Pydantic AI provide developers with granular control over AI agent behaviors. LangGraph utilizes a graph-based architecture to define and orchestrate agent workflows, allowing for detailed management of task dependencies.
+Frameworks like LangGraph provide developers with granular control over AI agent behaviors. LangGraph utilizes a graph-based architecture to define and orchestrate agent workflows, allowing for detailed management of task dependencies.
 
 These frameworks provide developers with tools to build custom agents for their needs—whether they need a simplified interface or advanced customization.
 
