@@ -63,7 +63,7 @@ On the LLM provider side, we have tools which allow transparent switching betwee
 
 #### Tools and prompts
 
-Tools are also moving towards standardized, templated blocks that can be seamlessly integrated into various architectures. This evolution means developers no longer need frameworks with built-in tool support, instead plugging custom agents with tools from diverse providers. Tools like Arcade AI exemplify this trend by offering built-in authentication within tool templates, enabling secure AI action integration into workflows for tools like Slack, Calendar or Mail.
+Tools are also moving towards standardized, templated blocks that can be seamlessly integrated into various architectures. This evolution means developers no longer need frameworks with built-in tool support, instead plugging custom agents with tools from diverse providers. Tools like Arcade exemplify this trend by allowing devs to build tools from the command line and offering built-in authentication within tool templates, helping users have easy access to utilities like Slack, Calendar or Mail.
 
 On the prompt side, we have several platforms that facilitate the sharing, versioning, and discovery of prompt templates, enabling developers to collaborate and access a diverse array of prompts for various use cases. 
 
