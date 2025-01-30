@@ -71,7 +71,7 @@ By leveraging tools like these, developers can treat prompts as modular componen
 
 #### Observability
 
-In what regards to observability frameworks, the most popular ones like Langsmith, W&B Weave, and Langfuse rely on a decorator-based approach, which simplifies their integration to any agent codebase and makes them easily interchangeable.
+In what regards to observability frameworks, many of the most popular ones like Langsmith, W&B Weave, and Langfuse rely on a decorator-based approach, which simplifies their integration to any agent codebase and makes them easily interchangeable.
 
 With decreasing switching costs, developers now have the freedom to choose among a wide array of LLMs, tools, and observability frameworks, using them interchangeably to fit their specific needs. 
 
