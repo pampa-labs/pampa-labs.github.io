@@ -93,7 +93,9 @@ Modular AI ecosystems are transforming the way we build intelligent systems. Tea
 
 The path forward isn't without its obstacles. Each additional component introduces latency. Models interpret instructions differently. Systems become harder to test. Yet these challenges pale in comparison to the increased flexibility and iteration speed. As agent systems grow more complex, the ability to mix and match specialized components is less of a luxury and more of a necessity.
 
-### References
+************************************************************************************************************************
+
+#### References
 
 - [Model Context Protocol (MCP)](https://www.anthropic.com/news/model-context-protocol/)  
 - [Not Diamond](https://www.notdiamond.ai/)  
