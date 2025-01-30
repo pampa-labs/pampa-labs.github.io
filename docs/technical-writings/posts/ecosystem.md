@@ -95,11 +95,11 @@ The path forward isn't without its obstacles. Each additional component introduc
 
 ### References
 
-- [Model Context Protocol (MCP)](https://www.anthropic.com/news/model-context-protocol?utm_source=chatgpt.com)  
-- [Not Diamond](https://www.notdiamond.ai/?utm_source=chatgpt.com)  
-- [Arcade SDK](https://arcade.dev/?utm_source=chatgpt.com)  
-- [LangSmith](https://www.langchain.com/langsmith?utm_source=chatgpt.com)  
-- [Langfuse](https://langfuse.com/?utm_source=chatgpt.com)  
-- [W&B Weave](https://weave-docs.wandb.ai/?utm_source=chatgpt.com)
-- [LangGraph](https://www.langchain.com/langgraph?utm_source=chatgpt.com)
-- [CrewAI](https://www.crewai.dev/?utm_source=chatgpt.com)
+- [Model Context Protocol (MCP)](https://www.anthropic.com/news/model-context-protocol/)  
+- [Not Diamond](https://www.notdiamond.ai/)  
+- [Arcade SDK](https://arcade.dev/)  
+- [LangSmith](https://www.langchain.com/langsmith/)  
+- [Langfuse](https://langfuse.com/)  
+- [W&B Weave](https://weave-docs.wandb.ai/)
+- [LangGraph](https://www.langchain.com/langgraph/)
+- [CrewAI](https://www.crewai.dev/)
