@@ -95,30 +95,10 @@ The path forward isn't without its obstacles. Each additional component introduc
 
 ### References
 
-Model Context Protocol (MCP)
-A protocol by Anthropic that provides a common language for AI components to communicate.  
-🔗 [Anthropic's Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)
-
-Not Diamond
-An AI model router that dynamically selects the best large language model (LLM) for a given input.  
-🔗 [Not Diamond AI Model Router](https://www.notdiamond.ai)
-
-Arcade SDK
-A platform that allows developers to build custom tooling with built-in authentication, facilitating access to utilities like Slack, Calendar, or Mail.  
-🔗 [Arcade AI on GitHub](https://github.com/ArcadeAI/arcade-ai)
-
-LangSmith
-A developer platform by LangChain that supports debugging, testing, and monitoring of LLM applications.  
-🔗 [LangSmith by LangChain](https://www.langchain.com/langsmith)
-
-Langfuse
-An open-source LLM engineering platform offering observability, analytics, and experimentation features to debug and improve LLM applications.  
-🔗 [Langfuse Open-Source LLM Engineering](https://langfuse.com/)
-
-W&B Weave
-A framework by Weights & Biases for tracking, experimenting with, evaluating, deploying, and improving LLM-based applications.  
-🔗 [Weave by Weights & Biases](https://weave-docs.wandb.ai/)
-
-LangGraph
-An orchestration framework by LangChain for building stateful, multi-actor applications with LLMs, providing fine-grained control over agent workflows.  
-🔗 [LangGraph by LangChain](https://www.langchain.com/langgraph)
+- [Model Context Protocol (MCP)](https://www.anthropic.com/news/model-context-protocol?utm_source=chatgpt.com)  
+- [Not Diamond](https://www.notdiamond.ai/?utm_source=chatgpt.com)  
+- [Arcade SDK](https://arcade.dev/?utm_source=chatgpt.com)  
+- [LangSmith](https://www.langchain.com/langsmith?utm_source=chatgpt.com)  
+- [Langfuse](https://langfuse.com/?utm_source=chatgpt.com)  
+- [W&B Weave](https://weave-docs.wandb.ai/?utm_source=chatgpt.com)
+- [LangGraph](https://www.langchain.com/langgraph?utm_source=chatgpt.com)  
