@@ -92,3 +92,35 @@ The modular approach, enabled by standardized protocols and interchangeable part
 Modular AI ecosystems are transforming the way we build intelligent systems. Teams can select and combine specialized components based on their unique strengths. This shift from monolithic solutions to interchangeable components marks the beginning of truly customizable AI systems.
 
 The path forward isn't without its obstacles. Each additional component introduces latency. Models interpret instructions differently. Systems become harder to test. Yet these challenges pale in comparison to the increased flexibility and iteration speed. As agent systems grow more complex, the ability to mix and match specialized components is less of a luxury and more of a necessity.
+
+### References
+
+# Tools Mentioned in "Toward an Age of Interoperable Agents"
+
+## Model Context Protocol (MCP)
+A protocol by Anthropic that provides a common language for AI components to communicate.  
+🔗 [Anthropic's Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)
+
+## Not Diamond
+An AI model router that dynamically selects the best large language model (LLM) for a given input.  
+🔗 [Not Diamond AI Model Router](https://www.notdiamond.ai)
+
+## Arcade SDK
+A platform that allows developers to build custom tooling with built-in authentication, facilitating access to utilities like Slack, Calendar, or Mail.  
+🔗 [Arcade AI on GitHub](https://github.com/ArcadeAI/arcade-ai)
+
+## LangSmith
+A developer platform by LangChain that supports debugging, testing, and monitoring of LLM applications.  
+🔗 [LangSmith by LangChain](https://www.langchain.com/langsmith)
+
+## Langfuse
+An open-source LLM engineering platform offering observability, analytics, and experimentation features to debug and improve LLM applications.  
+🔗 [Langfuse Open-Source LLM Engineering](https://langfuse.com/)
+
+## W&B Weave
+A framework by Weights & Biases for tracking, experimenting with, evaluating, deploying, and improving LLM-based applications.  
+🔗 [Weave by Weights & Biases](https://weave-docs.wandb.ai/)
+
+## LangGraph
+An orchestration framework by LangChain for building stateful, multi-actor applications with LLMs, providing fine-grained control over agent workflows.  
+🔗 [LangGraph by LangChain](https://www.langchain.com/langgraph)
