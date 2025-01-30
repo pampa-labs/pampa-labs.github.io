@@ -79,9 +79,9 @@ With decreasing switching costs, developers now have the freedom to choose among
 
 With modular building blocks and standardized protocols, frameworks are evolving from being component integrators to agent orchestrators. These frameworks serve a spectrum of developers, from those seeking simplicity to seasoned developers looking for advanced customization options.
 
-Frameworks like LangGraph provide developers with granular control over AI agent behaviors. LangGraph utilizes a graph-based architecture to define and orchestrate agent workflows, allowing for fine-grained management of task dependencies.
+High-level frameworks like CrewAI streamline the creation of AI agent teams by abstracting complexity, while lower-level frameworks like LangGraph offer granular control over agent behavior through a graph-based architecture. This lower level architecutre enables the definition and orchestration of agent workflows with fine-grained management of task dependencies.
 
-Frameworks like these provide developers with tools to build custom agents for their needs — whether they need a simplified interface or advanced customization.
+In this way, these frameworks empower developers to build custom agents for their needs — whether they need a simplified interface or advanced customization.
 
 ## Decentralization as the New Norm
 
@@ -101,4 +101,5 @@ The path forward isn't without its obstacles. Each additional component introduc
 - [LangSmith](https://www.langchain.com/langsmith?utm_source=chatgpt.com)  
 - [Langfuse](https://langfuse.com/?utm_source=chatgpt.com)  
 - [W&B Weave](https://weave-docs.wandb.ai/?utm_source=chatgpt.com)
-- [LangGraph](https://www.langchain.com/langgraph?utm_source=chatgpt.com)  
+- [LangGraph](https://www.langchain.com/langgraph?utm_source=chatgpt.com)
+- [CrewAI](https://www.crewai.dev/?utm_source=chatgpt.com)
