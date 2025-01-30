@@ -91,4 +91,4 @@ The modular approach, enabled by standardized protocols and interchangeable part
 
 Modular AI ecosystems are transforming the way we build intelligent systems. Teams can select and combine specialized components based on their unique strengths. This shift from monolithic solutions to interchangeable components marks the beginning of truly customizable AI systems.
 
-The path forward isn't without its obstacles. Each additional component introduces latency. Models interpret instructions differently. Systems become harder to test. Yet these challenges pale in comparison to the increased flexibility and iteration speed. As agent systems grow more complex, the ability to mix and match specialized components becomes less of a luxury and more of a necessity.
+The path forward isn't without its obstacles. Each additional component introduces latency. Models interpret instructions differently. Systems become harder to test. Yet these challenges pale in comparison to the increased flexibility and iteration speed. As agent systems grow more complex, the ability to mix and match specialized components is less of a luxury and more of a necessity.
