@@ -51,8 +51,7 @@ This modularity is revolutionizing AI development, allowing developers to swap, 
 
 Interoperability protocols are key to making these diverse parts work together. Before such protocols, integrating new models or tools required custom-built solutions. Protocols like Anthropic's Model Context Protocol (MCP) provide a common language for all components to communicate.
 
-With standardized protocols like MCP, adding a new model or replacing an outdated tool becomes straightforward. These protocols reduce friction, allowing developers to innovate and reduce reliance on exclusive integrations. Although MCP is Anthropic-centered, we anticipate more interoperability frameworks like this to emerge in the future.
-
+With standardized protocols like MCP, adding a new model or replacing an outdated tool becomes straightforward. These protocols reduce friction, allowing developers to innovate and reduce reliance on exclusive integrations.
 ### The Rise of Marketplaces and Ecosystems
 
 Each building block for LLMs is evolving into a rich marketplace. Language models, tools, and observability frameworks  compete on quality, cost, and features. Developers increasingly have the freedom to mix and match parts without compatibility concerns.
